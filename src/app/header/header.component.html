@@ -11,16 +11,24 @@
     <div class="col-sm-6">
         
                 
-                <input type="button" class=" btn search" value="Rechercher">
+                <button class="btn search">Rechercher</button>
                 
-                <i class="fa fa-user ml-4" ></i>
-                <input type="button" class="btn" value="Se connecter">
                 
-                <i class="fa fa-question-circle ml-4"></i>
-                <input type="button" class="btn" value="Aide">
-                
-                <i class="fa fa-cart-arrow-down ml-4"></i>
-                <input type="button" class="btn" value="Panier">
+                <button class="btn  ml-3"><i class="fa fa-user mr-2" ></i>Se connecter</button>
+                <button class="btn  ml-3"><i class="fa fa-question-circle mr-2"></i>Aide</button>
+                <button class="btn  ml-3"><i class="fa fa-cart-arrow-down mr-2"></i>Panier</button>
                     
     </div>
 </div>
+
+      <button class="btn btn-outline-secondary dropdown-toggle" 
+                type="button" data-toggle="dropdown" aria-haspopup="true" 
+                aria-expanded="false">Se connecter</button>
+      <div class="dropdown-menu">
+        <input type="button" class="btn search " value="Se connecter">
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Créer un compte </a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">votre Compte</a>
+        <a class="dropdown-item" href="#">vos commande</a>
+      </div>
