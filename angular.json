@@ -88,11 +88,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "./app_modules/bootstrap/dist/js/bootstrap.min.css"
+              "../app_modules/bootstrap/dist/js/bootstrap.min.css",
+              "../node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
-              "./app_modules/jquery/dist/jquery.min.js",
-              "./app_modules/bootstrap/dist/js/bootstrap.min.js"
+              "../app_modules/jquery/dist/jquery.min.js",
+              "../app_modules/bootstrap/dist/js/bootstrap.min.js"
               
             ]
           }
