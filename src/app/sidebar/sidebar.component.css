@@ -1,20 +1,19 @@
-.side-m {
+.side-m ,.parent{
     overflow: hidden;
     position: relative;
     width: 100%;
 }
-.side-l{
-    background-color: tomato;
-}
-.side-r{
-    background-color: tomato;
-}
 
-img {
-   
+
+img{
     height: 100%;
     width: 100%;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.percent{
+    height: 50%;
+    width: 100%;
 }
