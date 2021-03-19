@@ -1,11 +1,20 @@
-
+.side-m {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
 .side-l{
     background-color: tomato;
 }
 .side-r{
     background-color: tomato;
 }
-.side-m{
-    background-color: green;
 
+img {
+   
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
